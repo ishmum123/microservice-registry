@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveGeneric, OverloadedStrings, DeriveAnyClass #-}
 
-module CrudBuilder.Model (
+module Registry.Model (
   Relation(..),
   Column(..),
   Table(..),

@@ -1,12 +1,12 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module CrudBuilder.ModelSpec where
+module Registry.ModelSpec where
 
 import Test.Hspec (shouldBe, shouldNotBe, Spec, it, describe)
 import Data.Aeson (decode, encode)
 import Prelude hiding (max)
 
-import CrudBuilder.Model
+import Registry.Model
 
 spec :: Spec
 spec = describe "Model" $ do

@@ -1,5 +1,5 @@
 .stack-work/
-crud-builder.cabal
+microservice-registry.cabal
 .idea/
 *~
 *.iml

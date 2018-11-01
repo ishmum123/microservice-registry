@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveGeneric, OverloadedStrings, DeriveAnyClass #-}
 
-module CrudBuilder.FileParser where
+module Registry.FileParser where
 
 import Data.Aeson (decode)
 import Data.Text (Text, unpack)
@@ -8,7 +8,7 @@ import System.FilePath (takeDirectory)
 import System.Directory (createDirectoryIfMissing)
 import qualified Data.ByteString.Lazy as B
 
-import CrudBuilder.Model
+import Registry.Model
 
 tabChar :: String
 tabChar = "    "

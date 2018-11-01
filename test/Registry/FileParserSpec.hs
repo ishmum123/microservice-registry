@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module CrudBuilder.FileParserSpec where
+module Registry.FileParserSpec where
 
 import Prelude hiding (max)
 import System.Directory (getCurrentDirectory)
@@ -8,8 +8,8 @@ import System.FilePath ((</>))
 import Test.Hspec (shouldBe, shouldReturn, shouldThrow, errorCall, Spec, it, describe)
 import Control.Exception (evaluate)
 
-import CrudBuilder.FileParser
-import CrudBuilder.Model
+import Registry.FileParser
+import Registry.Model
 
 spec :: Spec
 spec = describe "FileParser" $ do
